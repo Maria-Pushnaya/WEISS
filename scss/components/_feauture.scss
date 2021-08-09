@@ -1,0 +1,58 @@
+.feauture__headre-title {
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight:bold;
+}
+.feauture__header-text {
+    color: #929A9F;
+    font-size: 16px;
+    line-height: 28px;
+}
+.feauture__header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    max-width: 520px;
+  
+}
+
+
+.feauture__cards{
+    
+    display: flex;
+    justify-content: space-between;   
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card:not(:last-child) {
+    padding-right: 140px;
+    
+    }
+    
+
+
+.feauture__title{
+    font-size: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    line-height: 30px;
+
+}
+
+.feauture__text {
+    padding-bottom: 24px;
+    line-height: 28px;
+   color: #929A9F;
+}
+.feauture__link {
+    text-decoration: none;
+    color: #FF9900;
+
+}
+
+
+
+

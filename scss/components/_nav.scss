@@ -1,0 +1,35 @@
+
+.nav {
+    
+    padding-bottom: 103px;
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    font-size: 16px;
+    
+    &__link:not(:last-child) {
+        padding-right: 40px;
+     }
+    &__menu {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    &__link {
+        text-decoration: none;
+        color: black;
+    } 
+}
+    .button-nav {
+       
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0px 64px 0px 24px;
+        background: #FF9900;
+        text-decoration: none;
+        color: white;
+    }

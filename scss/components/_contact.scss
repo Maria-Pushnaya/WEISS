@@ -1,0 +1,61 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 116px;
+    
+}
+.text__container{
+    padding-top: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 260px;
+    width: 328px;
+    
+
+}
+
+.contact__subtitle{
+font-size: 14px;
+line-height: 20px;
+text-transform: uppercase;
+color: #929A9F;
+font-weight: bold;
+padding-bottom: 16px;
+}
+
+.contact__title{
+    font-size: 32px;
+    color: #263640;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.contact__text {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 32px; 
+    color: #929A9F;
+  
+    
+}
+
+
+.button-karriere{
+    max-width: 135px;
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+
+    background: #FF9900;
+    text-decoration: none;
+    color: white;
+    
+    }
+
+
+    .contact__contaner-image {
+        padding-top: 200px;
+    }

@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+     &__content {
+       
+    padding-top: 100px;
+    max-width: 470px;
+    }
+    
+    &__subtitle{
+        font-size: 14px;
+        padding-bottom: 15px;
+        color: #929A9F;
+        font-weight:bold;
+    }
+
+    &__title { 
+        color: #263640;
+        font-size: 32px;
+        padding-bottom: 15px;
+        font-weight:bold;
+    }
+    
+    &__text {
+        font-size: 16px;
+        color: #929A9F;
+        line-height: 28px;
+        padding-bottom: 38px;
+    }
+    
+}
+
+.button-hero{
+    max-width: 209px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    background: #FF9900;
+    text-decoration: none;
+    color: white;
+    }
+
+
+
